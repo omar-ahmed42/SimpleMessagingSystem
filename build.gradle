@@ -1,0 +1,17 @@
+apply plugin: "java"
+
+group = "eg.edu.fcai.sms"
+version = "1.0"
+
+repositories {
+    mavenCentral()
+}
+
+sourceSets {
+    main.java.srcDirs = ["src"]
+    main.resources.srcDirs = ["res"]
+}
+
+dependencies {
+    implementation "com.google.code.gson:gson:2.9.0"
+}
